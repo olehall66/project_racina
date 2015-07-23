@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sam Racina Terranean Gallery</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css" media="screen" title="customStylesheet" charset="utf-8">
+</head>
+<body>
+  <div class="container_fluid bg-warning">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Terranean Gallery</h1>
+        <p class="text-center"><em>Featuring oil paintings and prints thereof by <strong>Sam Racina</strong></em></p>
+    </div>
+  </div><!--row-->
+
+<div class="clearfix"></div>
+
+    <div class="row">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6 text-center">
+        <img id="main_enter_img" class="center-block img-responsive img_frame" src="images/thecoastranges_wall1/redwoodmt4.jpg" />
+        <p id="main_enter_img_id">Redwood Mountain</p>
+      </div>
+
+      <div class="col-xs-3 vertical-center pull-left">
+        <p class="cursive"><br><br>Redwood Mountain is one of several pieces currently on display for sale at: <br><br><a href="#">Erickson Fine Art Gallery, in Healdsburg, CA</a></p>
+      </div>
+
+    </div><!-- row-->
+
+    <div class="row">
+      <div class="col-xs-12 div_height"></div>
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6">
+        <a id="enter_button" href="racinapage1.html"><button type="button" class="btn btn-warning btn-block active">ENTER</button><a/>
+        <div class="col-xs-12 div_height"></div>
+      </div>
+    </div>
+
+</div> <!--end main container_fluid-->
+
+
+  <!--foot navigation bar-->
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="list-inline list-unstyled pull-left">
+          <li class="color_white"><a href="http://www.hamune.com">Website: by Ole Hall &copy;2015</a></li>
+          <li class="color_white"><a class="btn btn-link" href="http://www.ericksonfineartgallery.com">EricksonFineArtGallery.com</a></li>
+        </ul>
+        <ul class="list-inline list-unstyled pull-right">
+          <li><a class="color_white" href="#">Sam Racina: Artist</li>
+          <li><a  class="color_white" href="mailto:scracina@earthlink.net?Subject=Contact%20Request">Contact him!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('#enter_button , #main_enter_img').on({
+          mouseenter: function(){
+            $('#main_enter_img').attr('src','images/abouttheartist_cu_perc.png');
+            $('#main_enter_img_id').text('Artist Sam Racina, in his studio');
+
+          },
+          mouseleave: function(){
+            $('#main_enter_img').attr('src','images/thecoastranges_wall1/redwoodmt4.jpg');
+            $('#main_enter_img_id').text('Redwood Mountain');
+          }
+      });
+    </script>
+  </body>
+</html>

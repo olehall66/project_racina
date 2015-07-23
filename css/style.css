@@ -1,0 +1,57 @@
+body{
+  padding-bottom:40px;
+}
+.img_frame{
+  padding:2px;
+  background-color:white;
+  border:8px solid chocolate;
+
+}
+
+
+.cursive{
+  font-family:cursive;
+  font-size:150%;
+  font-style:700;
+}
+.info_frame{
+  padding:2px;
+  background-color:white;
+  border:8px solid chocolate;
+
+}
+.img_frame:hover{
+  background-color:black;
+}
+.img_frame:active{
+  border-color:red;
+}
+.bottom_margin{
+  margin-bottom:70px;
+}
+.div_height{
+  height:50px;
+}
+.color_white{
+  color:white;
+}
+.offset_10{
+  margin-top:8px;
+}
+.offset_40{
+  margin-top:40px;
+}
+.display_wall img{
+  width:75%;
+  height:auto;
+}
+.primary_text{
+  font-size:150%;
+}
+.avail_color{
+  font-weight:bold;
+  color:green;
+}
+.top_height{
+  height:5%;
+}
