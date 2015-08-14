@@ -1,75 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sam Racina Terranean Gallery</title>
-
-    <!-- Bootstrap -->
+    <title>Terranean Search Tool</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container"> <!-- header-->
+      <div class="row">
+        <div class="col-xs-12">
+          <nav>
+            <a href="#" id="originals" class="btn btn-warning">Just Originals</a>
+            <a href="#" id="prints" class="btn btn-warning">Just Prints</a>
+            <a href="#" id="both" class="btn btn-warning">All Works</a>
+            <a href="#" id="sale" class="btn btn-warning">Sale</a>
+            <a href="index.html" id="back_to_main" class="btn btn-warning">back to Main</a>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="css/style.css" media="screen" title="customStylesheet" charset="utf-8">
-</head>
-<body>
-<div class="container-fluid bg-warning">
-  <!-- start nav-->
- <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class"row">
-      <div class="col-xs-12 ">
-        <ul class="list-inline list-unstyled pull-left">
-          <li><button type="button" class="btn btn-warning">button1</button></li>
-          <li><button type="button" class="btn btn-warning">button2</button></li>
-        </ul>
-        <ul class="list-inline list-unstyled pull-right">
-          <li><button type="button" class="btn btn-warning">button3</button></li>
-          <li><button type="button" class="btn btn-warning">button4</button></li>
-          <li><button type="button" class="btn btn-warning">button5</button></li>
-        </ul>
+
+          </nav>
+          <div id="header"><img src="images/newfacade.jpg"/> - the Amazon&trade; of Fine Art</div>
+          <div id="welcome_header">Welcome to Terranean Search</div>
+            <div class="col-xs-5 form-group pull-right">
+              <input id="itemSearch_btn" type="submit" value="Go" class="btn btn-default pull-right"/>
+              <input id="itemSearch" class="form-control pull-right" type="text" maxlength="40" placeholder="Search works by name"/>
+            </div>
+
+        </div>
+      </div>
+
+
+    </div> <!-- header container-->
+    <div class="container"> <!-- main content container-->
+      <div class="row">
+      <div class="col-xs-12">
+        <div id="main_box1" class="col-xs-3 content">
+        </div>
+        <div id="main_box2" class="col-xs-3 content">
+        </div>
+        <div id="main_box3" class="col-xs-3 content">
+        </div>
+        <div id="main_box4" class="col-xs-3 content">
+        </div>
       </div>
     </div>
-  </div> <!--end nav container-->
-  </nav>
-  <!-- end nav-->
+    </div> <!-- end main content container-->
+    <div class="container"> <!-- footer-->
+      <div class="row">
+        <div class="col-xs-12">
+          <nav></nav>
+        </div>
+      </div>
 
-  <!--Start main content-->
+    </div> <!-- footer container-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/imagedata.js"></script>
+      <script type="text/javascript">
+
+// defining functions
+  var add_to_page= function(imgObject){
+    if (typeof imgObject!=="string"){
+    var this_id=imgObject.imgLoc
+    if (row_counter===5){row_counter=0}
+    row_counter++
+    $('#main_box'+row_counter).append('<div id="box_'+this_id+'" class="col-xs-12 main_box_style type"></div>')
+      $('#box_'+this_id).append('<h4>Artist: Sam Racina</h4>')
+      $('#box_'+this_id).append($('<div id="imgTitle_'+this_id+'"></div>').text('"'+imgObject.imgTitle+'"'))
+      $('#box_'+this_id).append('<img id="disp_img" src="'+imgObject.imgSrc+'"/>')
+      $('#box_'+this_id).append($('<div id="imgSize_'+this_id+'"></div>').text(imgObject.imgSize))
+
+      if (imgObject.origIsAvail===true){
+        $('#box_'+this_id).addClass('original')
+        $('#box_'+this_id).append($('<div id="isAvail_'+this_id+'"></div>').text('The Original IS available for:'))
+        $('#box_'+this_id).append($('<div id="imgPrice_'+this_id+'"></div>').text(imgObject.imgPrice))
+        $('#box_'+this_id).append($('<div id="imgDesc_'+this_id+'"></div>').text(imgObject.imgDesc))
+      }
+      if (imgObject.printIsAvail===true){
+        $('#box_'+this_id).addClass('print')
+        $('#box_'+this_id).append($('<div id="isOrigAvail_'+this_id+'"></div>').text('The Print IS available for:'))
+        $('#box_'+this_id).append($('<div id="imgPrtPrice_'+this_id+'"></div>').text(imgObject.imgPrtPrice))
+        $('#box_'+this_id).append($('<div id="prtDesc_'+this_id+'"></div>').text(imgObject.prtDesc))
+      }
+      if (imgObject.printIsAvail===true && imgObject.origIsAvail===true){
+        $('#box_'+this_id).addClass('sale')
+        $('#imgPrice_'+this_id).append('<p class="onsale">Sale - take 10% off</p>')
+        $('#imgPrtPrice_'+this_id).append('<p class="onsale">Sale - take 10% off</p>')
+      }
+    }
+  }
+
+var all_add_to_page=function(){
+  for (var x=0;x<=4;x++){
+    walls[x].forEach(add_to_page);
+  }
+  searchClicked=false;
+}
+      // calling functions
+
+var row_counter=0;
+var searchClicked=false;
+$('#welcome_header').text('Welcome to Terrenean')
+$('.content').empty();
+all_add_to_page()
+
+
+$('#originals').click(function(){
+  if (searchClicked===true){
+    $('#welcome_header').text('Welcome to Terrenean')
+    $('.content').empty();
+    row_counter=0
+    all_add_to_page()
+  }
+  $('.print').hide();
+  $('.original').show();
+})
+
+$('#prints').click(function(){
+  if (searchClicked===true){
+    $('#welcome_header').text('Welcome to Terrenean')
+    $('.content').empty();
+    row_counter=0
+    all_add_to_page()
+  }
+  $('.print').show();
+  $('.original').hide();
+})
+$('#both').click(function(){
+  if (searchClicked===true){
+    $('#welcome_header').text('Welcome to Terrenean')
+    $('.content').empty();
+    row_counter=0
+    all_add_to_page()
+  }
+  $('.original').show();
+  $('.print').show();
+})
+$('#sale').click(function(){
+  if (searchClicked===true){
+    $('#welcome_header').text('Welcome to Terrenean')
+    $('.content').empty();
+    row_counter=0
+    all_add_to_page()
+  }
+  $('.original').hide();
+  $('.print').hide();
+  $('.sale').show();
+})
+
+
+$('#itemSearch_btn').click(function (event) {
+  searchClicked=true;
+  var search = $('#itemSearch').val()
+  $('.content').empty()
+  $('#itemSearch').val('')
+  row_counter=0
+  var search_counter=0
+  walls.forEach(function(wallObjects){
+
+    wallObjects.forEach(function (product) {
+        if (typeof product!=="string"){
+          if (!!product.imgTitle.toLowerCase().match(search.toLowerCase())) {
+            add_to_page(product)
+            search_counter++
+          }
+        }
+      })
+
+    })
+  $('#welcome_header').text('Current search for: "'+search+'" found '+search_counter+' item(s)')
+
+})
 
 
 
-
-
-
-<!-- end main content-->
-
-<!--foot navigation bar-->
-<nav class="navbar navbar-inverse navbar-fixed-bottom">
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12">
-      <ul class="list-inline list-unstyled pull-left">
-        <li class="color_white"><button type="button" class="btn btn-link">Link</button></li>
-        <li class="color_white"><button type="button" class="btn btn-link">Link</button></li>
-      </ul>
-      <ul class="list-inline list-unstyled pull-right">
-        <li><a class="color_white" href="#">Sam Racina: Artist</li>
-        <li><a  class="color_white" href="mailto:scracina@earthlink.net?Subject=Contact%20Request">Contact him!</li>
-      </ul>
-    </div>
-  </div>
-</div>
-</nav><!-- end foot nav bar-->
-</div> <!--end main container_fluid-->
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-</body>
+      </script>
+  </body>
 </html>

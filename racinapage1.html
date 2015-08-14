@@ -28,6 +28,7 @@
         <ul class="list-inline list-unstyled pull-left">
           <li><a href="index.html" class="btn btn-warning">Main</a></li>
           <li><a href="racinapage1.html" class="btn btn-warning">Art</a></li>
+          <li><a href="racinapage3.html" class="btn btn-warning">Quick Search</a></li>
         </ul>
         <ul class="list-inline list-unstyled pull-right">
           <li><a href="racinapage2.html" class="btn btn-warning">About the Artist</a></li>
@@ -62,16 +63,16 @@
       </div></div>
 
       <div class="row">
-        <div class="col-xs-12 center-block offset_40 thumb1">
+        <div class="col-xs-12 center-block offset_40 thumb1 empty">
         </div>
       </div>
 
     <div class="row">
-      <div class="col-xs-12 center-block offset_40 thumb2">
+      <div class="col-xs-12 center-block offset_40 thumb2 empty">
       </div>
     </div><!--row-->
     <div class="row">
-      <div class="col-xs-12 center-block offset_40 thumb3">
+      <div class="col-xs-12 center-block offset_40 thumb3 empty">
       </div>
     </div><!--row-->
       <div id="button_stop" class="clearfix visible-xs-block"><hr></div>
@@ -150,6 +151,7 @@
  var currentWall=wallClicked;
 
 $('#wall1').click(function(){
+  $('.empty').empty()
   wallClicked=wall_1;
   pop_thumbs(wallClicked); //initial population of thumbs
   populate('#img1',1,wallClicked); //initial population of main window
@@ -157,6 +159,7 @@ $('#wall1').click(function(){
   switcher();
 });
 $('#wall2').click(function(){
+  $('.empty').empty()
    wallClicked=wall_2;
    pop_thumbs(wallClicked); //initial population of thumbs
    populate('#img1',1,wallClicked); //initial population of main window
@@ -164,6 +167,7 @@ $('#wall2').click(function(){
    switcher();
  });
 $('#wall3').click(function(){
+  $('.empty').empty()
   wallClicked=wall_3;
   pop_thumbs(wallClicked); //initial population of thumbs
   populate('#img1',1,wallClicked); //initial population of main window
@@ -171,6 +175,7 @@ $('#wall3').click(function(){
   switcher();
 });
 $('#wall4').click(function(){
+  $('.empty').empty()
   wallClicked=wall_4;
   pop_thumbs(wallClicked); //initial population of thumbs
   populate('#img1',1,wallClicked); //initial population of main window
@@ -178,6 +183,7 @@ $('#wall4').click(function(){
   switcher();
 });
 $('#wall5').click(function(){
+  $('.empty').empty()
   wallClicked=wall_5;
   pop_thumbs(wallClicked); //initial population of thumbs
   populate('#img1',1,wallClicked); //initial population of main window

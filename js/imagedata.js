@@ -3,7 +3,7 @@
 
 // Wall One
 var Castles={
-  imgLoc:1,
+  imgLoc:"Castles",
   imgSrc:"images/thecoastranges_wall1/castles.jpg",
   imgTitle:"The Castles",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -15,7 +15,7 @@ var Castles={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var LateAlamedaCo={
-  imgLoc:2,
+  imgLoc:"LateAlamedaCo",
   imgSrc:"images/thecoastranges_wall1/latealamedaco.jpg",
   imgTitle:"Late Afternoon in Southeast Alameda County",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -27,7 +27,7 @@ var LateAlamedaCo={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var NortheastSonomacountyOakRidgeRanch={
-  imgLoc:3,
+  imgLoc:"NortheastSonomacountyOakRidgeRanch",
   imgSrc:"images/thecoastranges_wall1/northeastsonomaco_oakridgeranch.jpg",
   imgTitle:"Northeast Sonoma County (Oak Ridge Ranch)",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -39,7 +39,7 @@ var NortheastSonomacountyOakRidgeRanch={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var OakVinesHills={
-  imgLoc:4,
+  imgLoc:"OakVinesHills",
   imgSrc:"images/thecoastranges_wall1/oakvineshills.jpg",
   imgTitle:"Oaks, Vines and Hills",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -51,7 +51,7 @@ var OakVinesHills={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var OnBolinasRidge={
-  imgLoc:5,
+  imgLoc:"OnBolinasRidge",
   imgSrc:"images/thecoastranges_wall1/onbolinasridge.jpg",
   imgTitle:"On Bolinas Ridge",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -63,7 +63,7 @@ var OnBolinasRidge={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var RedwoodMountain={
-  imgLoc:6,
+  imgLoc:"RedwoodMountain",
   imgSrc:"images/thecoastranges_wall1/redwoodmt4.jpg",
   imgTitle:"Redwood Mountain",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -75,7 +75,7 @@ var RedwoodMountain={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var SandDollarBeach={
-  imgLoc:7,
+  imgLoc:"SandDollarBeach",
   imgSrc:"images/thecoastranges_wall1/sandollarbeach.jpg",
   imgTitle:"Sand Dollar Beach",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -87,7 +87,7 @@ var SandDollarBeach={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var ThompsonRidge={
-  imgLoc:8,
+  imgLoc:"ThompsonRidge",
   imgSrc:"images/thecoastranges_wall1/thompsonridge.jpg",
   imgTitle:"Thompson Ridge",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -98,12 +98,12 @@ var ThompsonRidge={
   printIsAvail:false,
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
-var wall_1=["Wall One: The Coastal Ranges",Castles,LateAlamedaCo,NortheastSonomacountyOakRidgeRanch,OakVinesHills,OnBolinasRidge,RedwoodMountain,SandDollarBeach,ThompsonRidge]
+var wall_1=["Wall One: The Coastal Ranges",SandDollarBeach,LateAlamedaCo,NortheastSonomacountyOakRidgeRanch,OakVinesHills,OnBolinasRidge,RedwoodMountain,Castles,ThompsonRidge]
 //end wall One
 
 // Wall Two
 var OaksAndWildflowers={
-  imgLoc:1,
+  imgLoc:"OaksAndWildflowers",
   imgSrc:"images/mostlyspring_wall2/framedoakwildflowers.jpg",
   imgTitle:"Oaks and Wildflowers",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -115,7 +115,7 @@ var OaksAndWildflowers={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var VentanaSpring={
-  imgLoc:2,
+  imgLoc:"VentanaSpring",
   imgSrc:"images/mostlyspring_wall2/ventanaspring.jpg",
   imgTitle:"Ventana Spring",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -127,7 +127,7 @@ var VentanaSpring={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var PruneOrchard={
-  imgLoc:3,
+  imgLoc:"PruneOrchard",
   imgSrc:"images/mostlyspring_wall2/printpruneorc.jpg",
   imgTitle:"Prune Orchard",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -139,7 +139,7 @@ var PruneOrchard={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var OakInFog={
-  imgLoc:4,
+  imgLoc:"OakInFog",
   imgSrc:"images/mostlyspring_wall2/poakinfog.jpg",
   imgTitle:"Valley Oak in Fog",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -151,7 +151,7 @@ var OakInFog={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var DodgeTrucks={
-  imgLoc:5,
+  imgLoc:"DodgeTrucks",
   imgSrc:"images/mostlyspring_wall2/pdodgetrk.jpg",
   imgTitle:"Dodge Trucks and Woodpile",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -163,7 +163,7 @@ var DodgeTrucks={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var InlandCentralCalifornia={
-  imgLoc:6,
+  imgLoc:"InlandCentralCalifornia",
   imgSrc:"images/mostlyspring_wall2/innercentralcoast.jpg",
   imgTitle:"Inland Central California",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -175,7 +175,7 @@ var InlandCentralCalifornia={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var Spring={
-  imgLoc:7,
+  imgLoc:"Spring",
   imgSrc:"images/mostlyspring_wall2/finalspring.jpg",
   imgTitle:"Spring",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -187,7 +187,7 @@ var Spring={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var RailroadBridge={
-  imgLoc:8,
+  imgLoc:"RailroadBridge",
   imgSrc:"images/mostlyspring_wall2/railroadbridge.jpg",
   imgTitle:"Railroad Bridge",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -203,7 +203,8 @@ var wall_2=["Wall 2: Mostly Spring",OaksAndWildflowers,VentanaSpring,PruneOrchar
 
 // Wall Three
 var AlabamaHills={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Alabamahills.jpg",
+  imgLoc:"AlabamaHills",
+  imgSrc:"images/thedesertandgreatbasin_wall3/alabamahills.jpg",
   imgTitle:"Alabama Hills",
   imgDesc:"---new----Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'20"x16" inches',
@@ -214,7 +215,8 @@ var AlabamaHills={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var GrandCanyon={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Grandcanyon.jpg",
+  imgLoc:"GrandCanyon",
+  imgSrc:"images/thedesertandgreatbasin_wall3/grandcanyon.jpg",
   imgTitle:"Grand Canyon",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'20"x14" inches',
@@ -225,7 +227,8 @@ var GrandCanyon={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var HoleInRock={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Holeinrock.jpg",
+  imgLoc:"HoleInRock",
+  imgSrc:"images/thedesertandgreatbasin_wall3/holeinrock.jpg",
   imgTitle:"Hole in rock",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'13"x22" inches',
@@ -236,7 +239,8 @@ var HoleInRock={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var NearLonePine={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Nearlonepine.jpg",
+  imgLoc:"NearLonePine",
+  imgSrc:"images/thedesertandgreatbasin_wall3/nearlonepine.jpg",
   imgTitle:"Near Lone Pine",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'24"x40" inches',
@@ -247,7 +251,8 @@ var NearLonePine={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var PalmOasis={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Palmoasis.jpg",
+  imgLoc:"PalmOasis",
+  imgSrc:"images/thedesertandgreatbasin_wall3/palmoasis.jpg",
   imgTitle:"Palm Oasis",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'15"x10" inches',
@@ -258,7 +263,8 @@ var PalmOasis={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var SandVerbinaNearPalmSprings={
-  imgSrc:"images/thedesertandgreatbasin_wall3/Sanverbi.jpg",
+  imgLoc:"SandVerbinaNearPalmSprings",
+  imgSrc:"images/thedesertandgreatbasin_wall3/sanverbi.jpg",
   imgTitle:"Sand Verbina near Palm Springs",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'22"x48" inches',
@@ -268,11 +274,12 @@ var SandVerbinaNearPalmSprings={
   printIsAvail:false,
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
-var wall_3=["Wall 3: The Desert and Great Basin",AlabamaHills,GrandCanyon,HoleInRock,NearLonePine,PalmOasis,SandVerbinaNearPalmSprings]
+var wall_3=["Wall 3: The Desert and Great Basin",SandVerbinaNearPalmSprings,HoleInRock,NearLonePine,AlabamaHills,PalmOasis,GrandCanyon]
 //end wall Three
 
 // Wall four
 var MtBurdell={
+  imgLoc:"MtBurdell",
   imgSrc:"images/thesierraandmtpeaks_wall4/smmtburdellprint.jpg",
   imgTitle:"Mt. Burdell",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -284,6 +291,7 @@ var MtBurdell={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var WhiteMountain={
+  imgLoc:"WhiteMountain",
   imgSrc:"images/thesierraandmtpeaks_wall4/whitemtn.jpg",
   imgTitle:"White Mountain",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -295,6 +303,7 @@ var WhiteMountain={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var RocksInYosemite={
+  imgLoc:"RocksInYosemite",
   imgSrc:"images/thesierraandmtpeaks_wall4/rocksinyosemite.jpg",
   imgTitle:"Rocks in Yosemite",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -306,6 +315,7 @@ var RocksInYosemite={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var MtDiablofromShortRidge={
+  imgLoc:"MtDiablofromShortRidge",
   imgSrc:"images/thesierraandmtpeaks_wall4/pmtdiablo.jpg",
   imgTitle:"Mt. Diablo from Short Ridge",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -317,7 +327,8 @@ var MtDiablofromShortRidge={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var IcePatch={
-  imgSrc:"images/thesierraandmtpeaks_wall4/Icepatch.jpg",
+  imgLoc:"IcePatch",
+  imgSrc:"images/thesierraandmtpeaks_wall4/icepatch.jpg",
   imgTitle:"Ice Patch",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'15"x10" inches',
@@ -328,6 +339,7 @@ var IcePatch={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var BlackMountain={
+  imgLoc:"BlackMountain",
   imgSrc:"images/thesierraandmtpeaks_wall4/cblackmtn.jpg",
   imgTitle:"Black Mountain",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -338,12 +350,13 @@ var BlackMountain={
   printIsAvail:true,
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
-var wall_4=["Wall Four: The Sierra and Mountain Peaks",MtBurdell,WhiteMountain,RocksInYosemite,MtDiablofromShortRidge,IcePatch,BlackMountain];
+var wall_4=["Wall Four: The Sierra and Mountain Peaks",MtBurdell,WhiteMountain,BlackMountain,MtDiablofromShortRidge,IcePatch,RocksInYosemite];
 
 //end wall four
 
 // Wall five
 var Tracks={
+  imgLoc:"Tracks",
   imgSrc:"images/humanartifacts_wall5/framedprinttracks.jpg",
   imgTitle:"Tracks",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -355,7 +368,8 @@ var Tracks={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var Spsd9e={
-  imgSrc:"images/humanartifacts_wall5/SD9E-Train.jpg",
+  imgLoc:"Spsd9e",
+  imgSrc:"images/humanartifacts_wall5/sd9etrain.jpg",
   imgTitle:"SP SD9E's Petaluma, CA 1992",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'32"x48" inches',
@@ -366,7 +380,8 @@ var Spsd9e={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var Spsw2595={
-  imgSrc:"images/humanartifacts_wall5/ssw2595L.jpg",
+  imgLoc:"Spsw2595",
+  imgSrc:"images/humanartifacts_wall5/ssw2595l.jpg",
   imgTitle:"SP-SW2595 switcher",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'18"x32" inches',
@@ -377,6 +392,7 @@ var Spsw2595={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var OldWarehouse={
+  imgLoc:"OldWarehouse",
   imgSrc:"images/humanartifacts_wall5/framedprint.jpg",
   imgTitle:"Old Warehouse",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -388,7 +404,8 @@ var OldWarehouse={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var TomalesNurseryTruck={
-  imgSrc:"images/humanartifacts_wall5/TomalesNurseryTruck.jpg",
+  imgLoc:"TomalesNurseryTruck",
+  imgSrc:"images/humanartifacts_wall5/tomalesnurserytruck.jpg",
   imgTitle:"Tomales Nursery Truck",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
   imgSize:'16"x24" inches and 12"x18" inches for smaller edition',
@@ -399,6 +416,7 @@ var TomalesNurseryTruck={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var FiftySevenFordTruck={
+  imgLoc:"FiftySevenFordTruck",
   imgSrc:"images/humanartifacts_wall5/p57ford.jpg",
   imgTitle:"'57 Ford Pickup",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -410,6 +428,7 @@ var FiftySevenFordTruck={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var ChevyPickup={
+  imgLoc:"ChevyPickup",
   imgSrc:"images/humanartifacts_wall5/chevytruck.jpg",
   imgTitle:"Chevy Pickup",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -421,6 +440,7 @@ var ChevyPickup={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var PetalumaMill={
+  imgLoc:"PetalumaMill",
   imgSrc:"images/humanartifacts_wall5/frprint-petmill.jpg",
   imgTitle:"Petaluma Mill",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -432,6 +452,7 @@ var PetalumaMill={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var FiftySevenFordno2={
+  imgLoc:"FiftySevenFordno2",
   imgSrc:"images/humanartifacts_wall5/57fordno2.jpg",
   imgTitle:"'57 Ford #2",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -443,6 +464,7 @@ var FiftySevenFordno2={
   prtDesc:"The print is an actual size Giclee reproduction of the original painting, and is framed the same as the original.This is a limited print edition of 100 signed and numbered copies and will include a Certificate of Authenticity. The first order received will be allocated 1/100, the second 2/100 and so on.",
 }
 var FranksFirstTruck={
+  imgLoc:"FranksFirstTruck",
   imgSrc:"images/humanartifacts_wall5/pfrankstruck.jpg",
   imgTitle:"Frank's First Truck",
   imgDesc:"Painted in 2001, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer versions of Lorem Ipsum.",
@@ -456,3 +478,4 @@ var FranksFirstTruck={
 var wall_5=["Wall Five: Human Artifacts",Tracks,Spsd9e,Spsw2595,OldWarehouse,TomalesNurseryTruck,FiftySevenFordTruck,ChevyPickup,PetalumaMill,FiftySevenFordno2,FranksFirstTruck];
 
 //end wall five
+var walls=[wall_1,wall_2,wall_3,wall_4,wall_5]
